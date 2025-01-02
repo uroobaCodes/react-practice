@@ -1,0 +1,28 @@
+.grocery-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  row-gap: 10px;
+}
+.grocery-item {
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+  margin-top: 10px;
+}
+
+.alert {
+  padding: 5px;
+  margin: 3px;
+  border-radius: 5px;
+}
+
+.alert-success {
+  background-color: rgb(167, 244, 167);
+  color: black;
+}
+
+.alert-error {
+  background-color: rgb(244, 168, 168);
+  color: black;
+}

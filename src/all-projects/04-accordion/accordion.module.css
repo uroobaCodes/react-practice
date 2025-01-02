@@ -1,0 +1,129 @@
+/* parent  */
+/* we may have to wrap parent in something for a smooth transition when questions open */
+.container {
+  background-color: rgba(239, 237, 223, 0.452);
+  display: grid;
+  align-items: center;
+  justify-items: center;
+
+  width: 80vw;
+  margin: 20px;
+  padding: 20px;
+  transition: all 0.1s linear;
+}
+
+.h-three {
+  align-self: start;
+  margin-right: 10px;
+  text-align: left;
+}
+
+@media screen and (min-width: 700px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 80vw;
+    padding: 20px;
+  }
+}
+
+/* single question */
+.article {
+  width: 40vw;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 20px;
+
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  padding: 5px;
+  box-sizing: border-box;
+
+  transition: all 0.5s linear;
+}
+
+.expanded {
+  height: 100px;
+}
+
+.header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 700px) {
+  .header {
+    width: 40vw;
+    justify-content: space-between;
+  }
+}
+
+.heading {
+  font-size: 14px;
+  text-align: left;
+}
+
+@media screen and (min-width: 700px) {
+  .heading {
+    font-size: 16px;
+  }
+}
+
+.info {
+  text-align: left;
+  font-size: 12px;
+  transition: all 3s linear;
+  margin: 0;
+  padding: 10px;
+}
+
+@media screen and (min-width: 700px) {
+  .info {
+    font-size: 14px;
+  }
+}
+
+.btn {
+  background: rgb(210, 207, 207);
+  color: darkred;
+  height: 30px;
+  width: 30px;
+  padding: 5px;
+
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+  transition: all 1s linear;
+
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+@media screen and (min-width: 700px) {
+  btn {
+    height: 40px;
+    width: 40px;
+    padding: 3px;
+  }
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn:hover {
+  background-color: white;
+  border: transparent;
+}

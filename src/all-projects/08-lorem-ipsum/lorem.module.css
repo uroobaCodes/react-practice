@@ -1,0 +1,19 @@
+.submit-btn {
+  margin: 10px;
+  padding: 5px;
+  background-color: seagreen;
+  border: transparent;
+}
+
+.submit-btn:hover {
+  background-color: lightseagreen;
+}
+.submit-btn:focus {
+  outline: none;
+}
+
+.label {
+  margin: 5px;
+  color: rgb(74, 100, 74);
+  font-weight: bold;
+}

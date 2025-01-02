@@ -1,0 +1,43 @@
+/* menu items  */
+
+.section-center {
+  display: grid;
+}
+
+@media screen and (min-width: 900px) {
+  .section-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+  }
+}
+
+.menu-item {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.photo {
+  width: 30vw;
+  height: 350px;
+  object-fit: cover;
+}
+
+.item-info {
+  width: 30vw;
+}
+
+.info-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.item-text {
+  text-align: left;
+  padding: 5px;
+}

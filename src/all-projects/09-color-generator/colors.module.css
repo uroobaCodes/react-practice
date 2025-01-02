@@ -1,0 +1,53 @@
+/* body {
+  background-color: rgba(176, 182, 187, 0.352);
+} */
+
+/* body's background is showing on my other modules as well */
+
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.input {
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 0.5px solid grey;
+}
+
+.error {
+  border: 2px solid rgba(255, 0, 0, 0.518);
+}
+
+.colors {
+  width: 80vw;
+  margin: 0 auto;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(4, minmax(100px, 1fr));
+}
+
+.color-containers {
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+  margin: 10px;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+  /* border: 1px solid black; */
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.weight,
+.hex,
+.alert {
+  font-size: 10px;
+}
+
+.light {
+  color: white;
+}
