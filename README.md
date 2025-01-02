@@ -6,6 +6,7 @@ Since I am not making a netlify site with this project, it can be cloned instead
 1. Clone the repository: git clone <forked-repo-url>
 2. Install dependencies using `npm install`.
 3. Start the development server with `npm run dev`.
+4. uncomment components one-by-one in the <App/> to see what they do. 
 
 # 📜 List of Projects:
 
